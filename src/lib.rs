@@ -52,7 +52,6 @@ extern crate libc;
     any(target_os = "linux", target_os = "openbsd", target_os = "freebsd")
 ))]
 extern crate mio;
-extern crate rand;
 extern crate serde;
 extern crate tempfile;
 #[cfg(any(
